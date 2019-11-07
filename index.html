@@ -1,12 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Tutorial Page</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
 </head>
+
 <body>
-    This is my JavaScript Tutorial Page
+
+    <div class='navbar-container'>
+        <div id="navbar">
+            <ul class='navbar'>
+                <li> <a href="">JavaScript</a></li>
+                <li class='nav-menu'> <a href="#functions"> Functions</a> </li>
+                <li> <a href="#objects"> Objects </a></li>
+                <li> <a href="#arrays"> Arrays </a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="sidebar-container">
+        <div class="sidebar" style="width:25%">
+
+            <h3 class="resourceTitle">Resources</h3>
+            <ul>
+                <li><a href="https://www.w3schools.com/" target="_blank">W3Schools</a></li>
+                <li><a href="https://www.google.com/" target="_blank">Google</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class='title-container'>
+        <div class='title'>
+            <h1>JavaScript</h1>
+        </div>
+    </div>
+
+    <section class="functions-container">
+        <div class="functions">
+            <br>
+            <br>
+            <h2 id="functions">Functions</h2>
+            <br>
+            <article>
+                <p> A function contains some code that will be executed by an event or a call to that function. A
+                    function is a set of statements. You can reuse functions within the same script, or in other
+                    documents. You define functions at the beginning of a file (in the head section), and call them
+                    later in the document. A JavaScript function is defined with the function keyword, followed by a
+                    name, followed by parentheses ().</p>
+                <br>
+                Function names can contain letters, digits, underscores, and dollar signs (same rules as variables).
+                The parentheses may include parameter names separated by commas:
+                (parameter1, parameter2, ...)
+                The code to be executed, by the function, is placed inside curly brackets: {}
+                function name(parameter1, parameter2, parameter3)
+                Function parameters are listed inside the parentheses () in the function definition.
+                Function arguments are the values received by the function when it is invoked.
+                Inside the function, the arguments (the parameters) behave as local variables.
+                </p>
+            </article>
+        </div>
+    </section>
+    <section class="objects-container">
+        <div class="objects">
+            <br>
+            <br>
+            <h2 id="objects">Objects</h2>
+            <br>
+            <article></article>
+            <p> Objects in Javascript. ... Loosely speaking, objects in JavaScript may be defined as an unordered
+                collection of related data, of primitive or reference types, in the form of “key: value” pairs. These
+                keys can be variables or functions and are called properties and methods, respectively, in the context
+                of an object.</p>
+        </div>
+    </section>
+    <section class="arrays-container">
+        <br>
+        <div class="arrays">
+            <br>
+            <h2 id="arrays">Arrays</h2>
+            <br>
+            <p> In JavaScript, array is a single variable that is used to store different elements. ... Unlike most
+                languages where array is a reference to the multiple variable, in JavaScript array is a single variable
+                that stores multiple elements.
+                <br>
+                <p>An array is a type of variable that stores a collection of variables. Arrays in JavaScript are
+                    zero-based - they start from zero.</p>
+            </p>
+        </div>
+    </section>
+    <section class="resources-container">
+        <h3>Learn More About JavaScript</h3>
+        <ul class="resources-list">
+            <li><a href="https://www.w3schools.com/" target="_blank">Visit W3 Schools</a></li>
+            <li><a href="https://www.google.com/" target="_blank">Google It</a></li>
+        </ul>
+    </section>
+    <footer>
+        <div class='footer-container'>
+            <div class="footer">
+                <p>Designed by Treveon Alexander in the 2019 Eleven Fifty Part-Time JavaScript Class</p>
+
+            </div>
+        </div>
+    </footer>
 </body>
+
 </html>
